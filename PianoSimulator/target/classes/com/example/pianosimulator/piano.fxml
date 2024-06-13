@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: #d9d9d9;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pianosimulator.HelloController">
+    <children>
+        <Button layoutX="6.0" layoutY="168.0" mnemonicParsing="false" prefHeight="221.0" prefWidth="56.0" style="-fx-background-color: white;" onAction="#playC"/>
+        <Label alignment="CENTER" layoutX="175.0" layoutY="24.0" prefHeight="76.0" prefWidth="406.0" text="PIANO">
+            <font>
+                <Font size="43.0" />
+            </font>
+        </Label>
+        <Button layoutX="98.0" layoutY="168.0" mnemonicParsing="false" prefHeight="221.0" prefWidth="56.0" style="-fx-background-color: white;" onAction="#playD"/>
+        <Button layoutX="344.0" layoutY="168.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="56.0" style="-fx-background-color: black;" onAction="#playDs"/>
+        <Button layoutX="394.0" layoutY="168.0" mnemonicParsing="false" prefHeight="221.0" prefWidth="56.0" style="-fx-background-color: white;" onAction="#playE"/>
+        <Button layoutX="441.0" layoutY="168.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="56.0" style="-fx-background-color: black;" onAction="#playFs"/>
+        <Button layoutX="488.0" layoutY="168.0" mnemonicParsing="false" prefHeight="221.0" prefWidth="56.0" style="-fx-background-color: white;" onAction="#playF"/>
+        <Button layoutX="536.0" layoutY="168.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="56.0" style="-fx-background-color: black;" onAction="#playGs"/>
+        <Button layoutX="581.0" layoutY="168.0" mnemonicParsing="false" prefHeight="221.0" prefWidth="56.0" style="-fx-background-color: white;" onAction="#playG"/>
+        <Button layoutX="631.0" layoutY="168.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="56.0" style="-fx-background-color: black;" onAction="#playAs"/>
+        <Button layoutX="681.0" layoutY="168.0" mnemonicParsing="false" prefHeight="221.0" prefWidth="56.0" style="-fx-background-color: white;" onAction="#playA"/>
+        <Button layoutX="51.0" layoutY="168.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="56.0" style="-fx-background-color: black;" onAction="#playCs"/>
+        <Button layoutX="294.0" layoutY="168.0" mnemonicParsing="false" prefHeight="221.0" prefWidth="56.0" style="-fx-background-color: white;" onAction="#playB"/>
+        <Button layoutX="245.0" layoutY="168.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="56.0" style="-fx-background-color: black;" onAction="#playFs"/>
+        <Button layoutX="196.0" layoutY="168.0" mnemonicParsing="false" prefHeight="221.0" prefWidth="56.0" style="-fx-background-color: white;" onAction="#playE"/>
+        <Button layoutX="147.0" layoutY="168.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="56.0" style="-fx-background-color: black;" onAction="#playDs"/>
+        <RadioButton layoutX="642.0" layoutY="432.0" mnemonicParsing="false" text="Record" />
+    </children>
+</Pane>
