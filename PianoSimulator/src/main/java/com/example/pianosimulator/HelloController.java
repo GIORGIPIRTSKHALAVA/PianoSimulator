@@ -62,7 +62,7 @@ public class HelloController {
     @FXML
     private void playDs() {
         playSound("Ds.wav");
-    }
+    }d
 
     @FXML
     private void playFs() {
@@ -75,7 +75,15 @@ public class HelloController {
     }
 
     @FXML
-    private void playAs() {
-        playSound("As.wav");
+    private void playE1() {
+        playSound("E1.wav");
+    }
+    @FXML
+    private void playCs() {
+        playSound("Cs.wav");
+    }
+    @FXML
+    private void playG() {
+        playSound("G.wav");
     }
 }
